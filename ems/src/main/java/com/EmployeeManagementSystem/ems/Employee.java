@@ -30,6 +30,13 @@ public class Employee {
 	public void setExp(String exp) {
 		this.exp = exp;
 	}
+	
+	public Employee(int id, String empName, String exp) {
+		super();
+		this.id = id;
+		this.empName = empName;
+		this.exp = exp;
+	}
 	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", empName=" + empName + ", exp=" + exp + "]";
